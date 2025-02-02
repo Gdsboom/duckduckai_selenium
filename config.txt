@@ -1,0 +1,15 @@
+original_file= 16/16.txt
+config_file= 16/example.txt
+translated_file= 16/16r.txt
+multiline= True
+already_done= False
+translate= True
+symbols_NoMultiline= 50
+symbols_multiline= 1500
+visual= True
+remove_lines_with_0_characters= False
+prompt= Переведи на русский, сделав его более плавным и естественным, даже если считаешь это звуком:
+prompt_error_1= Мне нужен prompt для нейросети, чтобы это слово:
+prompt_error_2= было полность переведено (точнее, чтобы ни одной англиской буквы не было в его составе).
+prompt_check_1= подходит такой перевод и, проверь на соответствие данный перевод на связность и читабельность:
+prompt_check_2= Пиши на русском, если перевод соответствует оригиналу или твои изменения лишь в пунктуации, то напиши "подходит". Никогда не пиши "Не подходит.", просто твой исправленный вариант.
